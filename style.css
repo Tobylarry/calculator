@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #3b4664;
+}
+
+#root{
+    width:30%;
+    margin: 100px auto;
+}
+
+.head{
+    color: white;
+    display:flex;
+    justify-content:space-between;
+}
+.head .right{
+    display: flex;
+    justify-content:center;
+    justify-items: center;
+    align-items:center;
+}
+.head .them{
+    margin-right: 10px;
+}
+.userValue{
+    color: white;
+    background-color: #181f32;
+    text-align: right;
+    padding: 10px;
+    font-size:35px;
+}
+.btns{
+    margin-top:20px;
+    padding: 5px;
+    background-color: #262d45;
+    color:#4a5160;
+    font-weight: 900;
+}
+
+.btnn{
+    background-color: #eae2dc;
+}
+
+.btn{
+    box-shadow: 0px 5px #b7a99e;
+}
+
+.del, .reset{
+    background-color:#647299;
+    color:white;
+    box-shadow: 0px 5px #414d6f;
+}
+
+.actionBtn{
+    display: flex;
+    justify-content:center;
+    padding:10px 10px 10px 0px;
+}
+.actionBtn span{
+    width:50%;
+    margin-left:10px;
+    text-align:center;
+    padding:10px;
+}
+.equal{
+    background-color: #d13f30;
+    color: white;
+    box-shadow: 0px 5px #802a26;
+}
+
+.btnGroup{
+   width:100%;
+   margin: 0 auto;
+   display:flex;
+   justify-content: space-between;
+   justify-items: center;
+}
+
+.btnGroup span{
+    width:25%;
+    margin:10px;
+    text-align: center;
+    padding:10px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.one{
+    background-color: #d04235;
+    color: #d04235;
+    border-radius: 50%;
+    padding:1px 5px;
+    font-size:8px;
+}
+.two{
+    background-color: #c85201;
+    color: #c85201;
+    border-radius: 50%;
+    padding:1px 5px;
+    font-size: 8px;
+}
+.three{
+    background-color: #00ddcc;
+    color: #00ddcc;
+    border-radius: 50%;
+    padding:1px 5px;
+    font-size: 8px;
+}
